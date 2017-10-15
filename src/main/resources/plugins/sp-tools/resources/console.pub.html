@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="psfu">
+<title>sp tools console</title>
+<script src="./_console/jquery-3.2.1.js"></script>
+<script src="./_console/sp-console.js"></script>
+<script>
+	defaultUrl = 'http://es-4.intra.sit.ffan.com/';
+</script>
+<link href="./_console/sp-console.css" rel="stylesheet">
+<style>
+</style>
+</head>
+<body style="background-color: #223344;">
+
+	<div></div>
+	<div id="showDiv"
+		style="word-wrap: normal; width: 75%; height: 600px; FLOAT: left; LINE-HEIGHT: 14px; TEXT-ALIGN: left; border: 1px solid #999999; padding: 1px; overflow-wrap: break-word; overflow-y: scroll; color: white; background-color: black;">
+	</div>
+	<div>
+		<input id="showInput" onChange="inputChange(this);"
+			style="width: 75%; color: white; background-color: black; LINE-HEIGHT: 18px; TEXT-ALIGN: left;" />
+	</div>
+	<div style="width: 75%;">
+		<div style="float: right">
+			<input class="btn btn-xs btn-info" type="button"
+				onClick="clearShow();" value="清空显示" /> <input
+				class="btn btn-xs btn-info" type="button" onClick="upFont();"
+				value="增大字体" /> <input class="btn btn-xs btn-info" type="button"
+				onClick="downFont();" value="减小字体" />
+			<!-- <input
+				class="btn btn-xs btn-info" type="button"
+				onClick="scrollLockChange();" value="自动滚动切换" /> -->
+		</div>
+	</div>
+	<div style="width: 75%;">
+		<input id="showUrl"
+			style="width: 35%; color: #887799; background-color: #223344; TEXT-ALIGN: left;" />
+		<input class="btn btn-xs btn-info" type="button" onClick="connect();"
+			value="切换链接" />
+	</div>
+	<script>
+		init();
+	</script>
+</body>
+</html>
