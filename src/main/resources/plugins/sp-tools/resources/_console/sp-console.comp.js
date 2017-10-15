@@ -7,7 +7,7 @@
 
 helpText = "<p style='color:yellow;'>"
 		+ "------------------------------------------------------------<br/>"
-		+ "-&nbsp; The sp console is authored by psfu<br/>"
+		+ "-&nbsp; The sp console v0.1.1, authored by psfu<br/>"
 		+ "-&nbsp; Directly input the cat command &nbsp;&nbsp;&nbsp; <b>EX:&nbsp; <u>nodes</u></b><br/>"
 		+ "-&nbsp; Input &nbsp; <b><u>help</u></b> &nbsp; for  _cat's help<br/>"
 		+ "-&nbsp; If using sp-tools, Input <b><u>sp/help</u></b> for help<br/>"
