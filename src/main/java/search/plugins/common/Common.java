@@ -26,17 +26,21 @@ import java.util.Properties;
 import org.elasticsearch.common.settings.Settings;
 
 public class Common {
-	
-	//TODO
-	public final static int logLevel = 0;
-	
+
+	// TODO
+	public final static int logLevel = 1;
+
+	public static boolean canLog(int level) {
+		return level > Common.logLevel;
+	}
+
 	//
-	public final static void log0(Object o){
+	public final static void log0(Object o) {
 		System.out.println(o.toString());
 	}
 
 	public static void log(int level, Object o) {
-		if (level > Common.logLevel) {
+		if (canLog(level)) {
 			Common.log0(o);
 		}
 	}
@@ -83,7 +87,7 @@ public class Common {
 	public static Properties loadPropertiesfile(String filePath) {
 		Properties properties = new Properties();
 		try {
-			//properties.load(Thread.currentThread().getContextClassLoader().getResourceAsStream(filePath));
+			// properties.load(Thread.currentThread().getContextClassLoader().getResourceAsStream(filePath));
 			FileReader fr = new FileReader(new File(filePath));
 			properties.load(fr);
 		} catch (IOException e) {

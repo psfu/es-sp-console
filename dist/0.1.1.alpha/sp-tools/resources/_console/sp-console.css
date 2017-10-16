@@ -1,0 +1,18 @@
+p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	line-height: 110%;
+}
+
+pre {
+	padding: 0px;
+	font-size: 100%;
+	color: white;
+	background-color: black;
+	border-radius: 0px;
+}
+
+em {
+	color: red;
+	font-weight: bold;
+}
