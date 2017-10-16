@@ -16,7 +16,8 @@
 
 ### Installation:
 * download the zip file in the dist folder.
-* undeploy the zip file in ./plugins in folder of Elasticsearch, and then it will create a folder named "sp-tools".
+* undeploy the zip file in ./plugins in folder of Elasticsearch.
+* finished.
 
 
 
