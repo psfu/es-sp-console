@@ -2,8 +2,8 @@
 
 ### About:
 * A plugin for Elasticsearch
-* SP means special this console is part of Sp-tools and is a standalone plugin. 
-[ sp tools ](https://github.com/psfu/es-sp-console "in developing")
+* SP means special, this console is part of Sp-tools and is a standalone plugin. 
+[ home of the sp tools ](https://github.com/psfu/es-sp-console "in developing")
 * It is able to provide:
 * * including a console, it can input and review command and result like linux console of "_cat"'s command.
 
