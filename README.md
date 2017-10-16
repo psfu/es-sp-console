@@ -12,8 +12,8 @@
 ### Using:
 * help info: 
 * * If using the full Sp-tools, please remove the console and install the Sp-tools.
-* * using: http://127.0.0.1:9200/_console
-* * also can use in local, just access the html file and input the URL of ES  
+* * using: http://127.0.0.1:9200/_console.
+* * also can use in local, just access the html file and input the URL of ES. (have set the cross access)  
 
 
 ### Installation:
