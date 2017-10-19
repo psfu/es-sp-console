@@ -19,7 +19,7 @@
 ### Installation:
 * download the zip file in the dist folder.
 * undeploy the zip file in ./plugins in folder of Elasticsearch (please remove the zip file, if the zip file is also in ./plugins).
-* change the elasticsearch.version to you elasticsearch version 
+* modify sp-tools/plugin-descriptor.properties, change the elasticsearch.version to you elasticsearch version 
 * * EX: elasticsearch.version=5.5.1 (this may use in all 5.x versions)
 * finished.
 
